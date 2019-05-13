@@ -27,7 +27,7 @@ chunk_recycle
 _chkstk
 CleanupPerAppKey
 ConditionVariableFallback::wait\(.*\)
-core::option::expect_failed
+expect_failed
 core::ptr::drop_in_place
 core::ptr::real_drop_in_place
 core::result::unwrap_failed<T>
@@ -171,6 +171,7 @@ objc_release
 operator new
 <.*>::operator()
 pages_commit
+panic_fmt
 PLDHashTable::
 PL_
 port_
